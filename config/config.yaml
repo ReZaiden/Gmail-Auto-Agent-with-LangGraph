@@ -1,0 +1,3 @@
+gmail:
+  credentials_file: config/credentials.json
+  token_file: config/token.json
