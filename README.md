@@ -93,12 +93,6 @@ python app.py
 
 The Gradio interface will launch and provide a URL (typically http://localhost:7860/)
 
-### Using Python directly:
-
-```bash
-python main.py
-```
-
 ## 📡 How It Works
 
 1. **User provides instructions** → Describe what email task you need (e.g., "Find all emails from john@example.com")
@@ -116,8 +110,8 @@ python main.py
 
 ```plaintext
 .
-├── app.py                  # Gradio web interface
-├── main.py                 # CLI entry point (placeholder)
+├── app.py                  # Gradio web interface (main entry point)
+├── main.py                 # CLI entry point (placeholder for future use)
 ├── requirements.txt        # Python dependencies
 ├── .env.sample            # Environment variables template
 ├── .gitignore             # Git ignore rules
